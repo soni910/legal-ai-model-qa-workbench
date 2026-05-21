@@ -61,7 +61,7 @@ with left:
     if error_summary.empty:
         st.success("No error rows found in the current dataset slice.")
     else:
-        st.dataframe(error_summary, use_container_width=True, hide_index=True)
+        st.dataframe(error_summary, width="stretch", hide_index=True)
 
     st.markdown("### Fields with Lowest Scores")
     lowest_fields = (
@@ -75,7 +75,7 @@ with left:
         st.info("No field-level score data available.")
     else:
         lowest_fields["average_score"] = lowest_fields["average_score"].round(3)
-        st.dataframe(lowest_fields, use_container_width=True, hide_index=True)
+        st.dataframe(lowest_fields, width="stretch", hide_index=True)
 
 with right:
     st.markdown("### High-Confidence Incorrect Outputs")
@@ -96,7 +96,7 @@ with right:
                     "severity",
                 ]
             ].sort_values(["confidence", "score"], ascending=[False, True]),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -112,7 +112,7 @@ with right:
     if source_summary.empty:
         st.success("No source-support problems detected.")
     else:
-        st.dataframe(source_summary, use_container_width=True, hide_index=True)
+        st.dataframe(source_summary, width="stretch", hide_index=True)
 
 st.markdown("---")
 st.subheader("Recommendation Playbook")

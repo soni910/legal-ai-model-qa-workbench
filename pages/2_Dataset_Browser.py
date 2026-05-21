@@ -82,7 +82,7 @@ view_columns = [
 
 st.dataframe(
     filtered_df[view_columns].sort_values(["contract_type", "excerpt_id"]),
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
 )
 

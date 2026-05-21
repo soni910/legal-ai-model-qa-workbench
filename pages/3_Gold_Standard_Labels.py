@@ -88,7 +88,7 @@ else:
         filtered_df[view_cols]
         .sort_values(["requires_legal_sme", "ambiguity_flag", "label_id"], ascending=[False, False, True])
         .style.apply(highlight_legal_sme, axis=1),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 

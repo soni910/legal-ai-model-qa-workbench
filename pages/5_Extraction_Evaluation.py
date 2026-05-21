@@ -110,9 +110,10 @@ else:
         "suggested_instruction_fix",
     ]
 
+    sorted_df = filtered_df.sort_values(["run_id", "contract_id", "excerpt_id", "field_name"])
     st.dataframe(
-        filtered_df[display_columns].sort_values(["run_id", "contract_id", "excerpt_id", "field_name"]),
-        use_container_width=True,
+        sorted_df[display_columns],
+        width="stretch",
         hide_index=True,
     )
 

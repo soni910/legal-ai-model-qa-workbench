@@ -73,7 +73,7 @@ with r1c1:
     st.markdown("#### Accuracy by Field")
     chart = chart_accuracy_by_field(field_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for field-level accuracy.")
 
@@ -81,7 +81,7 @@ with r1c2:
     st.markdown("#### Accuracy by Contract Type")
     chart = chart_accuracy_by_contract_type(contract_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for contract-type accuracy.")
 
@@ -90,7 +90,7 @@ with r2c1:
     st.markdown("#### Accuracy by Prompt Version")
     chart = chart_accuracy_by_prompt_version(prompt_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for prompt-version accuracy.")
 
@@ -98,7 +98,7 @@ with r2c2:
     st.markdown("#### Error Type Distribution")
     chart = chart_errors_by_type(error_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for error-type distribution.")
 
@@ -107,7 +107,7 @@ with r3c1:
     st.markdown("#### Severity Distribution")
     chart = chart_severity_distribution(severity_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for severity distribution.")
 
@@ -115,7 +115,7 @@ with r3c2:
     st.markdown("#### Confidence Calibration")
     chart = chart_confidence_calibration(calib_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for confidence calibration.")
 
@@ -124,7 +124,7 @@ with r4c1:
     st.markdown("#### Source Support Status")
     chart = chart_source_support(source_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for source-support status.")
 
@@ -132,7 +132,7 @@ with r4c2:
     st.markdown("#### Escalation Distribution")
     chart = chart_escalation_distribution(escalation_df)
     if chart is not None:
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     else:
         st.info("No data available for escalation distribution.")
 
@@ -159,6 +159,6 @@ else:
     ]
     st.dataframe(
         high_risk[table_cols].sort_values(["confidence", "severity"], ascending=[False, True]),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )

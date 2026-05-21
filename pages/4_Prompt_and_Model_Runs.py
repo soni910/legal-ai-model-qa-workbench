@@ -106,7 +106,7 @@ st.dataframe(
             "known_limitations",
         ]
     ].sort_values(["run_date", "run_id"]),
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
 )
 
