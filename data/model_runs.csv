@@ -1,0 +1,3 @@
+run_id,prompt_version,model_name,run_date,run_description,reviewer
+R001,PV1,SyntheticRuleModel-v1,2026-05-01,Baseline synthetic run,QA Analyst A
+R002,PV2,SyntheticRuleModel-v1,2026-05-10,Prompt-improved synthetic run,QA Analyst B
