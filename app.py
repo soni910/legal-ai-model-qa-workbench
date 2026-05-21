@@ -28,3 +28,14 @@ st.markdown(
     "Use the left sidebar to navigate between pages for dataset browsing, labels, "
     "model runs, evaluation summaries, taxonomy views, and annotation guidance."
 )
+
+
+from utils.validation import validate_all_datasets
+
+st.subheader("Dataset Validation Status")
+validation_results = validate_all_datasets()
+for dataset_name, status_message in validation_results.items():
+    if status_message.startswith("PASS:"):
+        st.success(status_message)
+    else:
+        st.error(status_message)
