@@ -1,0 +1,3 @@
+prompt_version,prompt_name,prompt_text,intended_improvement,known_limitations
+PV1,Baseline extraction,Extract target field value from excerpt and provide supporting phrase.,Baseline consistency,May miss exceptions.
+PV2,Exception-aware extraction,"Extract value, exceptions, and confidence with concise citation text.",Better handling of carve-outs,Can over-extract cross-references.
