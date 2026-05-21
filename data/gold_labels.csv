@@ -1,0 +1,31 @@
+label_id,excerpt_id,contract_id,field_name,gold_answer,gold_source_text,answer_status,requires_legal_sme,ambiguity_flag,label_notes
+L001,E001,C001,governing_law,Delaware,"This Agreement is governed by the laws of Delaware, excluding conflict-of-law rules.",final,false,false,Synthetic gold label.
+L002,E002,C002,notice_period,30 days,Either party may terminate for convenience upon 30 days written notice. See Section 14.2 for additional exceptions.,final,false,false,Synthetic gold label.
+L003,E003,C003,limitation_of_liability,See clause text,"Except for excluded claims, aggregate liability will not exceed fees paid in the prior 12 months. If commercially reasonable, parties may re",needs_review,true,true,Synthetic gold label.
+L004,E004,C004,confidentiality_survival_period,3 years,Confidentiality obligations survive for three years after termination.,final,true,false,Synthetic gold label.
+L005,E005,C005,auto_renewal,1-year auto-renewal unless 60-day notice,The initial term is one year and renews automatically for successive one-year terms unless notice is provided 60 days before renewal.,final,false,false,Synthetic gold label.
+L006,E006,C006,payment_terms,Net 30,Invoices are due net 30 from receipt of undisputed invoice.,final,false,false,Synthetic gold label.
+L007,E007,C007,late_payment_interest,1.0% per month or lawful maximum,"Overdue amounts accrue interest at 1.0% per month or maximum lawful rate, whichever is lower. If commercially reasonable, parties may revisi",needs_review,true,true,Synthetic gold label.
+L008,E008,C008,indemnity,See clause text,Vendor will indemnify Customer against third-party IP infringement claims arising from the Services. See Section 14.2 for additional excepti,final,true,false,Synthetic gold label.
+L009,E009,C009,assignment_change_of_control,See clause text,"Neither party may assign without consent, except in connection with a merger or change of control.",final,false,false,Synthetic gold label.
+L010,E010,C001,audit_rights,See clause text,Customer may audit Vendor security controls once per year with 10 business days notice.,final,false,false,Synthetic gold label.
+L011,E011,C002,subcontracting_rights,See clause text,"Provider may use subcontractors but remains fully responsible for their performance. If commercially reasonable, parties may revisit this pr",needs_review,true,true,Synthetic gold label.
+L012,E012,C003,termination_for_cause,15-day cure period,Either party may terminate for material breach not cured within 15 days after notice.,final,true,false,Synthetic gold label.
+L013,E013,C004,data_security_obligation,See clause text,Processor shall maintain appropriate technical and organizational security measures under Appendix 2.,final,false,false,Synthetic gold label.
+L014,E014,C005,renewal_type,month-to-month with annual option,Renewal is month-to-month unless either party opts for annual renewal in writing. See Section 14.2 for additional exceptions.,final,false,false,Synthetic gold label.
+L015,E015,C006,liability_cap_amount,"USD 250,000","Liability cap equals USD 250,000, except for excluded liabilities. If commercially reasonable, parties may revisit this provision by mutual ",needs_review,true,true,Synthetic gold label.
+L016,E016,C007,exclusions_from_liability_cap,"fraud, willful misconduct, unpaid fees","The liability cap does not apply to fraud, willful misconduct, or unpaid fees.",final,true,false,Synthetic gold label.
+L017,E017,C008,termination_for_convenience,After first 90 days,Customer may terminate for convenience after the first 90 days of the term.,final,false,false,Synthetic gold label.
+L018,E018,C009,contract_term,24 months,Term begins on Effective Date and continues for 24 months.,final,false,false,Synthetic gold label.
+L019,E019,C001,most_favoured_customer,See clause text,"Supplier grants pricing no less favorable than similarly situated customers. If commercially reasonable, parties may revisit this provision ",needs_review,true,true,Synthetic gold label.
+L020,E020,C002,non_solicit,See clause text,"During the term and for 12 months after, neither party will solicit the other party's employees. See Section 14.2 for additional exceptions.",final,true,false,Synthetic gold label.
+L021,E021,C003,governing_law,Delaware,"This Agreement is governed by the laws of Delaware, excluding conflict-of-law rules.",final,false,false,Synthetic gold label.
+L022,E022,C004,notice_period,30 days,Either party may terminate for convenience upon 30 days written notice.,final,false,false,Synthetic gold label.
+L023,E023,C005,limitation_of_liability,See clause text,"Except for excluded claims, aggregate liability will not exceed fees paid in the prior 12 months. If commercially reasonable, parties may re",needs_review,true,true,Synthetic gold label.
+L024,E024,C006,confidentiality_survival_period,3 years,Confidentiality obligations survive for three years after termination.,final,true,false,Synthetic gold label.
+L025,E025,C007,auto_renewal,1-year auto-renewal unless 60-day notice,The initial term is one year and renews automatically for successive one-year terms unless notice is provided 60 days before renewal.,final,false,false,Synthetic gold label.
+L026,E026,C008,payment_terms,Net 30,Invoices are due net 30 from receipt of undisputed invoice. See Section 14.2 for additional exceptions.,final,false,false,Synthetic gold label.
+L027,E027,C009,late_payment_interest,1.0% per month or lawful maximum,"Overdue amounts accrue interest at 1.0% per month or maximum lawful rate, whichever is lower. If commercially reasonable, parties may revisi",needs_review,true,true,Synthetic gold label.
+L028,E028,C001,indemnity,See clause text,Vendor will indemnify Customer against third-party IP infringement claims arising from the Services.,final,true,false,Synthetic gold label.
+L029,E029,C002,assignment_change_of_control,See clause text,"Neither party may assign without consent, except in connection with a merger or change of control.",final,false,false,Synthetic gold label.
+L030,E030,C003,audit_rights,See clause text,Customer may audit Vendor security controls once per year with 10 business days notice.,final,false,false,Synthetic gold label.
