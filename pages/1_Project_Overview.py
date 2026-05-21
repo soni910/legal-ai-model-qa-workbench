@@ -4,7 +4,7 @@ st.set_page_config(page_title="Project Overview", layout="wide")
 
 st.title("🧭 Project Overview")
 st.caption(
-    "Legal AI Model QA Workbench • Contract Intelligence Dataset, Evaluation Harness, Error Taxonomy, and Annotation Guide"
+    "Legal AI Model QA Workbench • Employer-facing portfolio for simulated contract-intelligence evaluation"
 )
 
 st.markdown("---")
@@ -15,102 +15,84 @@ with left:
     st.markdown("## What this project is")
     st.markdown(
         """
-This portfolio project simulates a real-world **Legal AI Model QA** workflow for contract intelligence.
+This is a **simulated contract-intelligence QA workbench**.
 
-It demonstrates how a legal AI product specialist or contract-intelligence analyst can evaluate extraction quality using:
+It demonstrates how a legal AI product specialist or contract analyst can evaluate extraction quality using:
 - synthetic contract excerpts
-- human-reviewed gold labels
-- prompt/version run tracking
+- gold-standard human-reviewed labels
+- model output comparisons
 - structured error taxonomy
-- source-text support checks
-- confidence and severity analysis
+- escalation workflows for legal/product/data-science teams
 
-The goal is to show a practical, recruiter-friendly QA framework that helps teams improve model reliability and reduce contractual risk.
+The focus is practical QA rigor for contract term extraction, not production legal automation.
         """
     )
 
 with right:
     st.info(
         "**Synthetic Data Only**\n\n"
-        "All records in this app are synthetic and created for portfolio demonstration. "
-        "No client or confidential data is used."
+        "All data is synthetic. No proprietary Workday, Evisort, customer, or confidential data is used."
     )
     st.warning(
         "**No Legal Advice**\n\n"
-        "This project is a technical QA demonstration and does not provide legal advice."
+        "This project is for QA/product demonstration and does not provide legal advice."
     )
+    st.caption("No paid APIs are used.")
 
 st.markdown("---")
 
 st.markdown("## Why contract AI QA matters")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.metric("Risk Impact", "High", "Bad extraction can misstate obligations")
+    st.metric("Risk Exposure", "High", "Incorrect extraction can distort obligations")
 with col2:
-    st.metric("Operational Value", "High", "Reliable outputs accelerate review")
+    st.metric("Business Value", "High", "Reliable extraction accelerates review")
 with col3:
-    st.metric("Trust Requirement", "Critical", "Stakeholders need explainable answers")
+    st.metric("Trust Requirement", "Critical", "Outputs must be evidence-backed")
 
 st.markdown(
     """
-Contract AI outputs can directly influence legal, procurement, finance, and security decisions.
-A robust QA process is essential to:
-- detect false positives/false negatives before rollout
-- catch party, time-period, and monetary misreads
-- verify extracted answers are supported by source text
-- identify high-confidence incorrect predictions
-- prioritize fixes based on severity and escalation needs
+Strong QA helps teams identify high-confidence errors, monitor source support quality,
+track prompt-version impact, and route ambiguous/high-risk cases for escalation.
     """
 )
 
 st.markdown("---")
-
-st.markdown("## Skills demonstrated")
-skills_left, skills_right = st.columns(2)
-with skills_left:
+st.markdown("## Skills Demonstrated")
+sl, sr = st.columns(2)
+with sl:
     st.markdown(
         """
-- ✅ Contract analysis
-- ✅ Legal AI model evaluation
-- ✅ Gold-standard labeling
-- ✅ Error taxonomy design
+- ✅ contract analysis
+- ✅ legal AI model evaluation
+- ✅ annotation guide drafting
+- ✅ error taxonomy design
         """
     )
-with skills_right:
+with sr:
     st.markdown(
         """
-- ✅ Source-text validation
-- ✅ Prompt-version comparison
-- ✅ Model improvement recommendations
-- ✅ Legal/Product/Data-Science communication
+- ✅ product/legal/data-science communication
+- ✅ QA dashboard design
+- ✅ synthetic dataset design
+- ✅ model-instruction improvement
         """
     )
 
 st.markdown("---")
-
-st.markdown("## How an employer should review this app")
+st.markdown("## How an employer should review this")
 with st.container(border=True):
     st.markdown(
         """
-### Recommended review flow
-1. **Dataset Browser**: confirm synthetic coverage across contract types and clause patterns.
-2. **Gold Standard Labels**: inspect label quality, ambiguity flags, and SME-escalation signals.
-3. **Prompt & Model Runs**: compare prompt versions and run metadata.
-4. **Extraction Evaluation**: assess weighted quality (exact/partial/incorrect) and field-level performance.
-5. **Error Taxonomy**: verify categorization discipline and severity handling.
-6. **QA Dashboard**: review trend-style summaries and confidence calibration.
-7. **Improvement Recommendations**: evaluate actionability of proposed instruction changes.
-8. **Annotation Guide**: verify repeatable labeling standards and cross-functional clarity.
-
-### What to look for
-- structured evaluation thinking (not just model outputs)
-- traceability from source text → labels → outputs → metrics
-- practical prioritization of fixes by severity and escalation
-- clear communication for legal, product, and data-science audiences
+1. **Start with Project Overview** to understand constraints and evaluation goals.
+2. **Review Synthetic Dataset** in Dataset Browser to inspect coverage and scenario variety.
+3. **Review Gold Standard Labels** to assess rubric discipline and ambiguity handling.
+4. **Review Extraction Evaluation** to inspect output-vs-gold scoring quality.
+5. **Review QA Dashboard** for risk signals, trends, and high-confidence incorrect outputs.
+6. **Review Annotation Guide** for operational consistency and escalation readiness.
         """
     )
 
-st.markdown("---")
 st.success(
-    "This page is intentionally designed as a recruiter-facing summary of domain understanding, QA rigor, and communication quality."
+    "This portfolio demonstrates contract-term extraction QA workflows with synthetic data, structured scoring, and practical escalation design."
 )
