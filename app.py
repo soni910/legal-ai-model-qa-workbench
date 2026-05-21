@@ -26,3 +26,6 @@ st.warning(
 st.caption(
     "No paid APIs are used in this project. Use the left sidebar to navigate the full employer-facing walkthrough."
 )
+
+
+st.markdown("**Current maturity:** Portfolio MVP focused on evaluation workflow design (not a production deployment).")

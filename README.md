@@ -5,26 +5,18 @@
 ## What this is
 This is an employer-facing **simulated contract-intelligence QA workbench**.
 
-It shows how legal AI product and QA teams can evaluate contract term extraction quality using:
+It demonstrates how legal AI product, QA, and contract-intelligence teams can evaluate contract term extraction quality using:
 - synthetic contract excerpts
 - gold-standard labels
 - model run comparisons
 - error taxonomy and severity tracking
 - escalation workflows across legal, product, and data science
 
-## What this project demonstrates
-- legal AI model evaluation skills
-- contract term extraction QA
-- gold-standard labeling and source-text checks
-- error taxonomy design
-- escalation workflow design for legal/product/data-science teams
-
-## Important constraints
-- Synthetic contract data only
-- No legal advice
-- No proprietary Workday, Evisort, customer, or confidential data
-- No paid APIs
-- No external LLM API calls
+## What this project is **not**
+- Not legal advice
+- Not a production legal AI system
+- Not trained on customer/proprietary contracts
+- Not integrated with external paid APIs or external LLM APIs
 
 ## Skills Demonstrated
 - contract analysis
@@ -43,6 +35,26 @@ It shows how legal AI product and QA teams can evaluate contract term extraction
 4. Review **Extraction Evaluation**.
 5. Review **QA Dashboard**.
 6. Review **Annotation Guide**.
+
+## Why this is credible
+- Traceability from source text → gold label → model output → score.
+- Explicit error taxonomy and severity/escalation fields.
+- Dedicated review workflow for high-confidence incorrect outputs.
+- Practical annotation and escalation guide for cross-functional teams.
+
+## Current maturity (honest scope)
+This is a portfolio MVP focused on QA workflow design. It intentionally does **not** include:
+- production authentication
+- database infrastructure
+- live LLM integrations
+- legal document ingestion pipelines
+
+## Important constraints
+- Synthetic contract data only
+- No proprietary Workday, Evisort, customer, or confidential data
+- No legal advice
+- No paid APIs
+- No external LLM API calls
 
 ## Local run
 ```bash

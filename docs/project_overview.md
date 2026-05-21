@@ -33,3 +33,8 @@ It is designed as a portfolio artifact for legal AI product, QA, and contract-in
 4. Evaluate output-vs-gold quality on Extraction Evaluation.
 5. Check risk and calibration signals in QA Dashboard.
 6. Confirm operational rigor in Annotation Guide.
+
+
+## Current maturity (honest scope)
+This portfolio artifact focuses on evaluation-process quality, not production architecture.
+It is intentionally lightweight and avoids auth, databases, and external paid/model APIs.

@@ -80,6 +80,11 @@ with sr:
     )
 
 st.markdown("---")
+
+st.markdown("---")
+st.markdown("## Current maturity (honest scope)")
+st.markdown("This is a portfolio MVP. It demonstrates QA workflow design and cross-functional review, not a production legal AI platform.")
+
 st.markdown("## How an employer should review this")
 with st.container(border=True):
     st.markdown(
