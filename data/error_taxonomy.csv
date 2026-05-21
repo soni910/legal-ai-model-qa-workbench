@@ -1,0 +1,11 @@
+error_type,definition,example,typical_severity,escalation_guidance
+False positive,Model extracts a value not actually stated.,Extracts auto-renewal where excerpt says no renewal.,medium,Review prompt boundaries.
+False negative,Model misses a clearly stated value.,Misses 30-day notice term.,medium,Add mandatory field checklist.
+Scope error,Value is too broad/narrow vs text scope.,Uses global cap when clause is service-specific cap.,high,Escalate if affects risk reporting.
+Party error,Obligation assigned to wrong party.,Assigns indemnity duty to customer instead of vendor.,high,Escalate to legal SME.
+Time-period error,Incorrect duration/date window.,Returns 60 days instead of 30 days.,medium,Validate temporal parsing rules.
+Monetary error,Incorrect currency or amount extraction.,"Extracts 25,000 instead of 250,000.",high,Escalate due to financial risk.
+Exception error,Misses carve-out or exception.,Omits fraud carve-out from liability cap.,high,Escalate when exceptions impact interpretation.
+Cross-reference error,Fails to resolve referenced section context.,Ignores Section 14.2 exception.,medium,Add cross-reference follow-up instruction.
+Source support error,Answer not supported by cited source snippet.,Cites unrelated sentence for answer.,medium,Require tighter source-text matching.
+Ambiguity escalation,Ambiguous clause should be escalated but is not.,Model gives definitive answer to inherently ambiguous term.,high,Always escalate ambiguous legal phrasing.
