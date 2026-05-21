@@ -1,0 +1,31 @@
+excerpt_id,contract_id,clause_category,excerpt_text,difficulty_level,trick_type,notes
+E001,C001,governing_law,"This Agreement is governed by the laws of Delaware, excluding conflict-of-law rules.",easy,none,Synthetic excerpt for benchmarking.
+E002,C002,notice_period,Either party may terminate for convenience upon 30 days written notice. See Section 14.2 for additional exceptions.,medium,cross_reference,Synthetic excerpt for benchmarking.
+E003,C003,limitation_of_liability,"Except for excluded claims, aggregate liability will not exceed fees paid in the prior 12 months. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,double_negative,Synthetic excerpt for benchmarking.
+E004,C004,confidentiality_survival_period,Confidentiality obligations survive for three years after termination.,tricky,exception_clause,Synthetic excerpt for benchmarking.
+E005,C005,auto_renewal,The initial term is one year and renews automatically for successive one-year terms unless notice is provided 60 days before renewal.,easy,multi_party,Synthetic excerpt for benchmarking.
+E006,C006,payment_terms,Invoices are due net 30 from receipt of undisputed invoice.,medium,missing_subject,Synthetic excerpt for benchmarking.
+E007,C007,late_payment_interest,"Overdue amounts accrue interest at 1.0% per month or maximum lawful rate, whichever is lower. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,none,Synthetic excerpt for benchmarking.
+E008,C008,indemnity,Vendor will indemnify Customer against third-party IP infringement claims arising from the Services. See Section 14.2 for additional exceptions.,tricky,cross_reference,Synthetic excerpt for benchmarking.
+E009,C009,assignment_change_of_control,"Neither party may assign without consent, except in connection with a merger or change of control.",easy,double_negative,Synthetic excerpt for benchmarking.
+E010,C001,audit_rights,Customer may audit Vendor security controls once per year with 10 business days notice.,medium,exception_clause,Synthetic excerpt for benchmarking.
+E011,C002,subcontracting_rights,"Provider may use subcontractors but remains fully responsible for their performance. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,multi_party,Synthetic excerpt for benchmarking.
+E012,C003,termination_for_cause,Either party may terminate for material breach not cured within 15 days after notice.,tricky,missing_subject,Synthetic excerpt for benchmarking.
+E013,C004,data_security_obligation,Processor shall maintain appropriate technical and organizational security measures under Appendix 2.,easy,none,Synthetic excerpt for benchmarking.
+E014,C005,renewal_type,Renewal is month-to-month unless either party opts for annual renewal in writing. See Section 14.2 for additional exceptions.,medium,cross_reference,Synthetic excerpt for benchmarking.
+E015,C006,liability_cap_amount,"Liability cap equals USD 250,000, except for excluded liabilities. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,double_negative,Synthetic excerpt for benchmarking.
+E016,C007,exclusions_from_liability_cap,"The liability cap does not apply to fraud, willful misconduct, or unpaid fees.",tricky,exception_clause,Synthetic excerpt for benchmarking.
+E017,C008,termination_for_convenience,Customer may terminate for convenience after the first 90 days of the term.,easy,multi_party,Synthetic excerpt for benchmarking.
+E018,C009,contract_term,Term begins on Effective Date and continues for 24 months.,medium,missing_subject,Synthetic excerpt for benchmarking.
+E019,C001,most_favoured_customer,"Supplier grants pricing no less favorable than similarly situated customers. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,none,Synthetic excerpt for benchmarking.
+E020,C002,non_solicit,"During the term and for 12 months after, neither party will solicit the other party's employees. See Section 14.2 for additional exceptions.",tricky,cross_reference,Synthetic excerpt for benchmarking.
+E021,C003,governing_law,"This Agreement is governed by the laws of Delaware, excluding conflict-of-law rules.",easy,double_negative,Synthetic excerpt for benchmarking.
+E022,C004,notice_period,Either party may terminate for convenience upon 30 days written notice.,medium,exception_clause,Synthetic excerpt for benchmarking.
+E023,C005,limitation_of_liability,"Except for excluded claims, aggregate liability will not exceed fees paid in the prior 12 months. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,multi_party,Synthetic excerpt for benchmarking.
+E024,C006,confidentiality_survival_period,Confidentiality obligations survive for three years after termination.,tricky,missing_subject,Synthetic excerpt for benchmarking.
+E025,C007,auto_renewal,The initial term is one year and renews automatically for successive one-year terms unless notice is provided 60 days before renewal.,easy,none,Synthetic excerpt for benchmarking.
+E026,C008,payment_terms,Invoices are due net 30 from receipt of undisputed invoice. See Section 14.2 for additional exceptions.,medium,cross_reference,Synthetic excerpt for benchmarking.
+E027,C009,late_payment_interest,"Overdue amounts accrue interest at 1.0% per month or maximum lawful rate, whichever is lower. If commercially reasonable, parties may revisit this provision by mutual written agreement.",ambiguous,double_negative,Synthetic excerpt for benchmarking.
+E028,C001,indemnity,Vendor will indemnify Customer against third-party IP infringement claims arising from the Services.,tricky,exception_clause,Synthetic excerpt for benchmarking.
+E029,C002,assignment_change_of_control,"Neither party may assign without consent, except in connection with a merger or change of control.",easy,multi_party,Synthetic excerpt for benchmarking.
+E030,C003,audit_rights,Customer may audit Vendor security controls once per year with 10 business days notice.,medium,missing_subject,Synthetic excerpt for benchmarking.
