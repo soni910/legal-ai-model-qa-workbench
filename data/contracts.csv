@@ -1,0 +1,10 @@
+contract_id,contract_type,counterparty,industry,agreement_date,synthetic_flag,contract_summary
+C001,SaaS MSA,Synthetic SaaS Co 1,Manufacturing,2025-02-03,true,Synthetic SaaS MSA containing common commercial clauses for QA benchmarking.
+C002,NDA,Synthetic NDA Co 2,Manufacturing,2025-03-05,true,Synthetic NDA containing common commercial clauses for QA benchmarking.
+C003,Vendor Agreement,Synthetic Vendor Co 3,Retail,2025-04-07,true,Synthetic Vendor Agreement containing common commercial clauses for QA benchmarking.
+C004,Order Form,Synthetic Order Co 4,Manufacturing,2025-05-09,true,Synthetic Order Form containing common commercial clauses for QA benchmarking.
+C005,Data Processing Addendum,Synthetic Data Co 5,Manufacturing,2025-06-11,true,Synthetic Data Processing Addendum containing common commercial clauses for QA benchmarking.
+C006,Employment Agreement,Synthetic Employment Co 6,EdTech,2025-07-13,true,Synthetic Employment Agreement containing common commercial clauses for QA benchmarking.
+C007,Contractor Agreement,Synthetic Contractor Co 7,Manufacturing,2025-08-15,true,Synthetic Contractor Agreement containing common commercial clauses for QA benchmarking.
+C008,Lease,Synthetic Lease Co 8,Healthcare,2025-09-17,true,Synthetic Lease containing common commercial clauses for QA benchmarking.
+C009,Services Agreement,Synthetic Services Co 9,Logistics,2025-10-19,true,Synthetic Services Agreement containing common commercial clauses for QA benchmarking.
