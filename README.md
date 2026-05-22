@@ -36,6 +36,21 @@ It demonstrates how legal AI product, QA, and contract-intelligence teams can ev
 5. Review **QA Dashboard**.
 6. Review **Annotation Guide**.
 
+
+## QA methodology
+Use these fields together as a decisioning framework:
+
+- **match_status**: qualitative correctness class (`correct`, `mostly_correct`, `partial`, `incorrect`, `not_present`, `ambiguous`, `not_assessable`).
+- **score**: quantitative severity of correctness for aggregate tracking (e.g., 1.0 correct, 0.75 mostly_correct, 0.5 partial, 0.25 minimally_correct, 0.0 incorrect).
+- **severity**: business/legal risk level of the error (`low`, `medium`, `high`) used for triage priority.
+- **escalation_required**: explicit routing flag for cross-functional follow-up (legal SME, product, or data science).
+
+Recommended decision flow:
+1. Validate extraction correctness with **match_status** and **score**.
+2. Prioritize remediation using **severity** (high first).
+3. Route ambiguous/high-risk rows when **escalation_required=true**.
+4. Use recurring patterns to drive prompt changes, annotation-guide updates, and product guardrails.
+
 ## Why this is credible
 - Traceability from source text → gold label → model output → score.
 - Explicit error taxonomy and severity/escalation fields.
